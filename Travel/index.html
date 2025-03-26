@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel web-page</title>
+    <!--------------------- custom css -------------------------->
+    <link rel="stylesheet" href="style.css">
+    <!------------------- font sawom cdn link ------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Swiper js link for css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!----------------- 1.header section -------------------->
+
+    <header class="header">
+        <div class="container">
+            <nav class="navbar" id="navbar">
+                <div class="logo">
+                    <a href="#"><img src="images/logo 5.0.png" alt="logo" loading="lazy"></a>
+                </div>
+                <input type="checkbox" id="click">
+                <label for="click" class="menu-btn">
+                    <i class="fa-solid fa-bars-staggered"></i></label>
+                <ul class="links">
+                    <li><a href="index.html" class="nav-links active">home</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">tour</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">about us</a></li>
+                    <a href="#" class="btn">register</a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!----------------- 2.banner section -------------------->
+
+    <section class="hero">
+        <!-- Background Video -->
+        <video autoplay muted loop class="hero-video">
+            <source src="video/3326928-hd_1920_1080_24fps.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- Dark Overlay -->
+        <div class="hero-overlay"></div>
+
+        <!-- Hero Content -->
+        <div class="hero-content">
+            <h1>Explore the World</h1>
+            <p>Find your next adventure and book your dream destination.</p>
+
+            <!-- Search Bar -->
+            <div class="search-box">
+                <input type="text" placeholder="Enter your destination..." class="search-input" required>
+                <a href="#" class="search-button"><i class="fa fa-search"></i> Search</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <!---------------- 3.services section --------------->
+
+    <section class="services-section">
+        <h2 class="subtitle">our <span>services</span></h2>
+        <div class="underline"></div>
+        <div class="services-container">
+            <div class="row">
+                <div class="services">
+                    <div class="services-item">
+                        <i class="fa-solid fa-hotel"></i>
+                        <h3>Affordable <span>Hotel</span></h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae tempora porro repellat
+                            aspernatur alias enim!</p>
+                    </div>
+                </div>
+
+                <div class="services">
+                    <div class="services-item">
+                        <i class="fa-solid fa-plane"></i>
+                        <h3>Fastest <span>Travel</span></h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae tempora porro repellat
+                            aspernatur alias enim!</p>
+                    </div>
+                </div>
+
+                <div class="services">
+                    <div class="services-item">
+                        <i class="fa-solid fa-earth-americas"></i>
+                        <h3>Around <span>The World</span></h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae tempora porro repellat
+                            aspernatur alias enim!</p>
+                    </div>
+                </div>
+
+                <div class="services">
+                    <div class="services-item">
+                        <i class="fa-solid fa-person"></i>
+                        <h3>Safty <span>Guide</span></h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae tempora porro repellat
+                            aspernatur alias enim!</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!----------------------- 4.card section ------------------------->
+
+
+    <section class="card-section">
+        <div class="container">
+            <h3 class="subtitle">populer <span>place</span></h3>
+            <div class="underline"></div>
+
+            <div class="card-grid">
+              
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/india.png" alt="Agra,india" loading="lazy">
+                        <span class="card-tag">Popular</span>
+                    </div>
+                    <div class="card-info">
+                        <h3 class="card-title">Agra,india</h3>
+                        <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+                            voluptates nihil quibusdam commodi qui natus!</p>
+                        <div class="card-meta">
+                            <div class="card-price">&#8377;2499</div>
+                            <div class="card-rating">
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="rating-count">(124)</div>
+                            </div>
+                        </div>
+                        <div class="card-actions">
+                            <a href="#" class="btn-1 btn-primary-1">Add to book</a>
+                            <button class="btn-1 btn-icon"><i class="fa-solid fa-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+             
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/free-photo-of-charming-mountain-village-in-schenna-italy.jpeg"
+                            alt="Ortler,italy" loading="lazy">
+                        <span class="card-tag">Best choice</span>
+                    </div>
+                    <div class="card-info">
+                        <h3 class="card-title">Ortler,italy</h3>
+                        <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+                            voluptates nihil quibusdam commodi qui natus!</p>
+                        <div class="card-meta">
+                            <div class="card-price">&#8377;1999</div>
+                            <div class="card-rating">
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="rating-count">(98)</div>
+                            </div>
+                        </div>
+                        <div class="card-actions">
+                            <a href="#" class="btn-1 btn-primary-1">Add to book</a>
+                            <button class="btn-1 btn-icon"><i class="fa-solid fa-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+              
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/pexels-photo-31228701.webp" alt="Bondai beach,Australia" loading="lazy">
+                        <span class="card-tag">Nature</span>
+                    </div>
+                    <div class="card-info">
+                        <h3 class="card-title">Bondai beach,Australia</h3>
+                        <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+                            voluptates nihil quibusdam commodi qui natus!</p>
+                        <div class="card-meta">
+                            <div class="card-price">&#8377;2999</div>
+                            <div class="card-rating">
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="rating-count">(156)</div>
+                            </div>
+                        </div>
+                        <div class="card-actions">
+                            <a href="#" class="btn-1 btn-primary-1">Add to book</a>
+                            <button class="btn-1 btn-icon"><i class="fa-solid fa-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+              
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/g1.png" alt=">Egypt,Misar" loading="lazy">
+                        <span class="card-tag">Demand</span>
+                    </div>
+                    <div class="card-info">
+                        <h3 class="card-title">Egypt,Misar</h3>
+                        <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+                            voluptates nihil quibusdam commodi qui natus!</p>
+                        <div class="card-meta">
+                            <div class="card-price">&#8377;1699</div>
+                            <div class="card-rating">
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="rating-count">(87)</div>
+                            </div>
+                        </div>
+                        <div class="card-actions">
+                            <a href="#" class="btn-1 btn-primary-1">Add to book</a>
+                            <button class="btn-1 btn-icon"><i class="fa-solid fa-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!------------------- 6.book section ------------------->
+    <section class="book-section">
+        <h5 class="subtitle"> book <span>now</span></h5>
+        <div class="underline"></div>
+        <div class="booking-container">
+            <div class="row">
+                <div class="text">
+                    <h3>Let's Get In <span>Touch</span></h3>
+                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Velit nobis, modi alias
+                        suscipit
+                        molestiae amet!</div>
+                    <p><i class="fa-solid fa-location-dot"></i> New Delhi,India</p>
+                    <p><a href="tel:+91 702-911-2631"><i class="fa-solid fa-phone-volume"></i> +91 702-911-2631</a>
+                    </p>
+                    <p><a href="mailto:info@mail.com"><i class="fa-solid fa-envelope"></i> info@mail.com</a></p>
+                    <a href="#"><img src="images/play-store (2).png" alt="app-store" loading="lazy"></a>
+                    <a href="#"><img src="images/app-store.png" alt="app-store" loading="lazy"></a>
+                </div>
+                <div class="booking-form">
+                    <form>
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" placeholder="Enter your name" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter your email" required>
+
+                        <label for="destination">Destination</label>
+                        <input type="text" id="destination" placeholder="Enter destination" required>
+
+                        <label for="date">Travel Date</label>
+                        <input type="date" id="date" required>
+
+                        <label for="guests">Number of Guests</label>
+                        <input type="number" id="guests" min="1" max="800" required>
+
+                        <button type="submit" class="btn">Book Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------- about us section start ------------------->
+    <section class="about-section">
+        <h6 class="subtitle"> about <span>us</span></h6>
+        <div class="underline"></div>
+        <div class="about-container">
+            <!-- Left Side - Content -->
+            <div class="about-content">
+                <div class="section-subtitle">About Travels</div>
+                <h2 class="section-title">Discover the World with <span class="highlight-text">Passion</span> and
+                    Expertise</h2>
+                <p class="section-description">Founded in 2005, Voyager Travels has been crafting unforgettable journeys
+                    for adventurers, explorers, and curious souls from around the globe. Our mission is to create
+                    authentic travel experiences that connect people with extraordinary destinations and cultures.</p>
+                <p class="section-description">What sets us apart is our commitment to sustainable travel practices and
+                    our team of experienced travel specialists who design each itinerary with meticulous attention to
+                    detail.</p>
+
+                <div class="features-list">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fa-regular fa-paper-plane"></i>
+                        </div>
+                        <div class="feature-text">Expertly Crafted Itineraries</div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="feature-text">120+ Global Destinations</div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fa-regular fa-thumbs-up"></i>
+                        </div>
+                        <div class="feature-text">Sustainable Travel Practices</div>
+                    </div>
+                </div>
+
+                <a href="#" class="btn">Explore Our Journeys</a>
+            </div>
+
+            <!-- Right Side - Image -->
+            <div class="about-image">
+                <img src="images/book-img.png" alt="Travel Destination">
+                <!-- <div class="image-overlay"></div> -->
+                <div class="experience-badge">
+                    <div class="experience-number">20+</div>
+                    <div class="experience-text">Years of Experience</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------ 5.testimonial section -------------------->
+    <section class="testimonial-section">
+        <h4 class="subtitle"> our <span>testimonial</span></h4>
+        <div class="underline"></div>
+        <div class="testimonial-container">
+            <div class="row">
+                <div class="testimonial">
+                    <div class="testimonial-items">
+                        <div>
+                            <img src="images/user-1.jpeg" alt="user-1" loading="lazy">
+                        </div>
+                        <div>
+                            <p>"An incredible journey! The destinations, food, and activities were top-notch. A must-book for all travel lovers!"</p>
+                            <div class="autor">Timothy Nathan</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial">
+                    <div class="testimonial-items">
+                        <div>
+                            <img src="images/user-2.jpeg" alt="user-2" loading="lazy">
+
+                        </div>
+                        <div>
+                            <p>"I loved every moment of the journey. The accommodations and guides were fantastic. I can’t wait for my next adventure!"</p>
+                            <div class="autor">Kayley Frame</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial">
+                    <div class="testimonial-items">
+                        <div>
+                            <img src="images/user-3.jpeg" alt="user-3" loading="lazy">
+                        </div>
+                        <div>
+                            <p>"An unforgettable experience! The trip was well organized, and the destinations were breathtaking. Highly recommended!" </p>
+                            <div class="autor">Gene Whitfield</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial">
+                    <div class="testimonial-items">
+                        <div>
+                            <img src="images/user-5.jpeg" alt="user-4" loading="lazy">
+                        </div>
+                        <div>
+                            <p>Absolutely wonderful! The team ensured a seamless experience, and I felt completely taken care of throughout my trip."
+                            </p>
+                            <div class="autor">Allan Kim</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!------------- gallery section ------------->
+
+    <section class="travel-gallery">
+        <div class="gallery-container">
+            <div class="gallery-flex">
+                <!-- Gallery Items -->
+                <div class="gallery-item">
+                    <img src="images/sea.webp" alt="Tropical Beach" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Tropical Paradise</h3>
+                        <p>Pristine beaches with crystal clear waters</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/populer-2.jpeg" alt="Mountain Landscape" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Mountain Majesty</h3>
+                        <p>Breathtaking peaks and alpine landscapes</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/g3.png" alt="Urban Cityscape" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Urban Exploration</h3>
+                        <p>Modern cities and architectural wonders</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/Dessert img.webp" alt="Desert Landscape" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Desert Adventure</h3>
+                        <p>Vast and serene desert landscapes</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/Forest Retreat.jpeg" alt="Forest Scenery" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Forest Retreat</h3>
+                        <p>Lush green forests and natural beauty</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/Prem Mandir.jpeg" alt="Cultural Heritage" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3>Cultural Journeys</h3>
+                        <p>Ancient traditions and historic sites</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-------------------- band section ----------------->
+
+    <section class="brand">
+        <div class="container">
+            <div class="row">
+                <div class="brands">
+                    <img src="images/Qatar Airways.png" alt="Qatar Airlines" loading="lazy">
+                </div>
+                <div class="brands">
+                    <img src="images/AIR INDIA (1).png" alt="Qatar Airlines" loading="lazy">
+                </div>
+                <div class="brands">
+                    <img src="images/Vietnam Airlines (1).png" alt="Qatar Airlines" loading="lazy">
+                </div>
+                <div class="brands">
+                    <img src="images/Singapore Airlines (1).png" alt="Qatar Airlines" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--------------------- footer section ----------------------->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo">
+                <a href="#"><img src="images/logo 5.0.png" alt="logo" loading="lazy"></a>
+            </div>
+            <div class="footer-content">
+                <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>Vero quasi adipisci nihil
+                    nostrum,
+                    ullam
+                    minima obcaecati.</div>
+                <div class="socail-icon">
+                    <a href="https://www.facebook.com/" target="_blank"><i
+                            class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/explore" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+
+                <ul class="footer-links">
+                    <li><a href="#">Home </a></li>
+                    <li><a href="#">services </a></li>
+                    <li><a href="#">place </a></li>
+                    <li><a href="#">book now</a></li>
+                    <li><a href="#">Contact Us </a></li>
+                </ul>
+                <hr>
+                <div class="copyright"><a href="#">&copy;2024 travel. all right reserv.</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src=" https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js "></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
